@@ -92,7 +92,7 @@ if [ ! -d $CACHE_DIR/$VENDORED_PROJ ]; then
   download_package "proj" "${PROJ_VERSION}" "${CACHE_DIR}/${VENDORED_PROJ}"
 fi
 
-TARGET_VENDOR_DIR=".heroku/vendor"
+TARGET_VENDOR_DIR=".scalingo/vendor"
 # Copy artifacts out of cache if exists.
 for dir in $VENDORED_GEOS $VENDORED_GDAL $VENDORED_PROJ; do
   mkdir -p $BUILD_DIR/$TARGET_VENDOR_DIR
