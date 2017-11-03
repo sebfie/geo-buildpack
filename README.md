@@ -1,25 +1,23 @@
-Heroku buildpack: geo
+Buildpack: geo
 =====================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) that
+This is a [Scalingo buildpack](http://doc.scalingo.com/buildpacks) that
 vendors main geo/gis libraries like geos, proj and gdal.
 
 It is meant to be used in conjunction with other buildpacks as part of a
-[multi-buildpack](https://github.com/ddollar/heroku-buildpack-multi).
+[multi-buildpack](http://doc.scalingo.com/buildpacks/multi).
 
 Usage
 -----
 
 Example usage:
 
-    $ heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+    $ scalingo env-set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
 
     $ cat .buildpacks
-    https://github.com/cyberdelia/heroku-geo-buildpack.git#1.3
-    https://github.com/heroku/heroku-buildpack-ruby.git#v129
+    https://github.com/Scalingo/geo-buildpack
+    https://github.com/Scalingo/ruby-buildpack
 
-
-Don't forget to pin buildpack versions you want to use in your .buildpacks file.
 
 Testing
 -------
