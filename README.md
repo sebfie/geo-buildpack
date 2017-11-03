@@ -12,7 +12,7 @@ Usage
 
 Example usage:
 
-    $ scalingo env-set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+    $ scalingo env-set BUILDPACK_URL=https://github.com/Scalingo/multi-buildpack.git
 
     $ cat .buildpacks
     https://github.com/Scalingo/geo-buildpack
