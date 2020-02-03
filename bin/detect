@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# bin/detect <build-dir>
+#!/bin/bash
 
-echo "geos/gdal/proj"
+echo "Geo Packages (GDAL/GEOS/PROJ)"
 exit 0
