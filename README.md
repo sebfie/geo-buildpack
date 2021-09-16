@@ -1,4 +1,6 @@
-# Buildpack: Geo
+# [DEPRECATED] Buildpack: Geo
+
+The Geo buildpack is deprecated. This is no longer officially supported, but feel free to fork it to make it work on the most recent stacks.
 
 This is a [Scalingo
 buildpack](https://doc.scalingo.com/platform/deployment/buildpacks/intro) that
