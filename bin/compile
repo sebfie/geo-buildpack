@@ -37,6 +37,8 @@ elif [ "${STACK}" = "scalingo-18" ] ; then
   export STACK="heroku-18"
 elif [ "${STACK}" = "scalingo-20" ] ; then
   export STACK="heroku-20"
+elif [ "${STACK}" = "scalingo-22" ] ; then
+  export STACK="heroku-22"
 fi
 
 if [ -f "$ENV_DIR/GDAL_VERSION" ]; then
